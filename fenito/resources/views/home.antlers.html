@@ -1,3 +1,15 @@
-<div>
-    {{ partial:showcase-cards }}
+<div style="background-image: url('/assets/img/background-fade.svg');" class="bg-contain bg-no-repeat">
+    <div class="w-full h-screen flex justify-between items-center">
+        <div class="flex flex-col gap-5 ml-20">
+            <h1 class="font-bold text-7xl">Fenito Media</h1>
+            <p class="text-lg text-gray-500">"Bringing your vision to life, one frame at a time."</p>
+            <div class="mt-5 flex justify-between">
+                <a href="/work" class="rounded text-white uppercase font-bold px-5 py-2 bg-[#2A93D5] shadow-lg">see our work</a>
+                <a href="/contact-us" class="rounded text-[#2A93D5] uppercase font-bold px-5 py-2 border-[#2A93D5] border-2 box-border shadow-lg">contact us</a>
+            </div>
+        </div>
+        <div class="w-1/2 flex justify-center items-center">
+            {{ partial:showcase-cards }}
+        </div>
+    </div>
 </div>
