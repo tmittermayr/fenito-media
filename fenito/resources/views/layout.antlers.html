@@ -16,8 +16,17 @@
         <title>Fenito Media - {{ title }}</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="/resources/scss/main.scss">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+        <style>
+            * {
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Open Sans', sans-serif;
+            }
+        </style>
     </head>
-    <body class="font-sans leading-normal bg-gray-100 text-gray-800 bg-[url('/assets/img/background.png')]">
+    <body class="font-sans leading-normal bg-gray-100 text-gray-800 bg-[url('/assets/img/background.png')]" >
         <header>
             {{ partial:nav }}
         </header>
