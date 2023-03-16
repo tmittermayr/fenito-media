@@ -1,0 +1,16 @@
+<textarea
+    name="{{ handle }}"
+    {{ if placeholder }}
+        placeholder="{{ placeholder }}"
+    {{ else }}
+        placeholder="&nbsp;"
+    {{ /if }}
+    {{ if character_limit }}maxlength="{{ character_limit }}"{{ /if }}
+    {{ if js_driver }}{{ js_attributes }}{{ /if }}
+    {{ if validate|contains:required }}required{{ /if }}
+    rows="4"
+    class="bg-white px-3 py-2 shadow border-2 focus:border-[#2A93D5] focus:shadow-lg focus:outline-none border-gray-300 rounded w-full"
+>
+    {{ value }}
+</textarea>
+<label class="absolute top-2 left-3 point pointer-events-none origin-[0%] duration-200">{{ instructions }}</label>

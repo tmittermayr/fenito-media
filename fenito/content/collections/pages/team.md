@@ -4,5 +4,6 @@ blueprint: page
 title: Team
 author: 1442a5e6-297c-4cb8-a98d-daaecf97181f
 updated_by: 1442a5e6-297c-4cb8-a98d-daaecf97181f
-updated_at: 1678875528
+updated_at: 1678894997
+template: team
 ---

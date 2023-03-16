@@ -4,5 +4,6 @@ blueprint: page
 title: Contact
 author: 1442a5e6-297c-4cb8-a98d-daaecf97181f
 updated_by: 1442a5e6-297c-4cb8-a98d-daaecf97181f
-updated_at: 1678875540
+updated_at: 1678895002
+template: contact
 ---

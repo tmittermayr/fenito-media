@@ -13,6 +13,7 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
+          placeholder: Name
       -
         handle: email
         field:
@@ -24,16 +25,7 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      -
-        handle: message
-        field:
-          antlers: false
-          display: Message
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
+          placeholder: Email
       -
         handle: telephone
         field:
@@ -45,3 +37,15 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
+          placeholder: Telephone
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          placeholder: Message

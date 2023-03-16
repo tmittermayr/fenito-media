@@ -13,15 +13,16 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Fenito Media</title>
+        <title>Fenito Media - {{ title }}</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="/resources/scss/main.scss">
     </head>
-    <body class="bg-gray-100 font-sans leading-normal text-gray-800">
+    <body class="font-sans leading-normal bg-gray-100 text-gray-800 bg-[url('/assets/img/background.png')]">
         <header>
             {{ partial:nav }}
         </header>
         {{ template_content }}
+        {{ partial:footer }}
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
 </html>

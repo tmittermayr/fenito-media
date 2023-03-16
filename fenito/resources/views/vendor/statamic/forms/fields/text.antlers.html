@@ -1,0 +1,14 @@
+<input
+    type="{{ input_type ?? 'text' }}"
+    name="{{ handle }}"
+    value="{{ value }}"
+    {{ if placeholder }}
+        placeholder="{{ placeholder }}"
+    {{ else }}
+        placeholder="&nbsp;"
+    {{ /if }}
+    {{ if character_limit }}maxlength="{{ character_limit }}"{{ /if }}
+    {{ if js_driver }}{{ js_attributes }}{{ /if }}
+    {{ if validate|contains:required }}required{{ /if }}
+    class="bg-white px-3 py-2 shadow border-2 focus:border-[#2A93D5] focus:shadow-lg focus:outline-none border-gray-300 rounded w-full"
+>
