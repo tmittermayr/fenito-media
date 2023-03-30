@@ -1,0 +1,37 @@
+<div class="pt-52 mb-10 flex md:flex-row flex-col items-center lg:items-start gap-10 lg:px-20 px-5 h-screen">
+
+    <div class="video-container lg:w-[60%] w-[90%] lg:pb-[33.75%] pb-[50.625%]">
+        {{ if video | is_embeddable }}
+        <!-- Youtube and Vimeo -->
+        <iframe src="{{ video | embed_url }}" ... class="rounded-xl"></iframe>
+        {{ else }}
+        <!-- Other HTML5 video types -->
+        <video src="{{ video | embed_url }}" ... class="rounded-xl"></video>
+        {{ /if }}
+    </div>
+
+    <div class="text-lg flex flex-col gap-3">
+        <h1 class="text-4xl font-bold">{{ title }}</h1>
+        <p class="font-semibold mb-2">{{ date }}</p>
+        <p>Client: {{ client }}</p>
+        <p>Location: {{ location }}</p>
+        {{ content }}
+    </div>
+
+</div>
+
+<style>
+    .video-container {
+        position: relative;
+        height: 0;
+    }
+
+    .video-container iframe,
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>

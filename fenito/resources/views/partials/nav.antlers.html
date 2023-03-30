@@ -1,8 +1,23 @@
-<nav class="absolute top-0 left-0 w-full flex justify-between items-center px-20 py-5 {{ if (current_url | contains('team')) && !(current_url | contains('team/')) }} text-white {{ /if }}">
-    <a href="/"><img src="/assets/img/fnt-logo-ohne-schrift.svg" alt="Fenito Logo" class="w-24" /></a>
-    <div class="flex gap-10 uppercase list-none">
-        {{ nav:header }}
+<nav class="absolute w-full top-0 left-0 z-30" role="navigation" x-data="{ open: window.innerWidth >= 768, width: window.innerWidth }" @resize.window.debounce.100="width = window.innerWidth; open = width >= 768">
+
+    <div class="w-full flex flex-col md:flex-row md:items-center md:justify-between" id="nav-wrapper">
+
+        <div class="w-full flex justify-between items-center md:px-3 md:mx-6">
+            <a class="p-2 z-30" href="/"><img class="z-30 ml-3 md:w-24" src="/assets/img/fnt-logo-ohne-schrift.svg" alt="Fenito"
+                    title="Fenito"></a>
+            <a class="fs-toggler md:hidden" role="button" x-on:click="open = !open" :class="open ? 'active' : 'not-active'">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class=" bg-[#D1EBFF] md:bg-transparent py-4 px-12" x-show="open" x-data="{ openDropDown: false }" x-collapse>
+            <ul class="flex flex-col gap-5 md:flex-row">
+            {{ nav:header }}
             <li><a href="{{ url }}"  class="text-xl hover:border-b-2 {{ if (current_url | contains('team')) && !(current_url | contains('team/')) }} hover:border-white {{ else }} hover:border-black {{ /if }} transition ease-in-out {{ if is_current || is_parent }}text-[#2A93D5]{{ endif }}">{{ title }}</a></li>
-        {{ /nav:header }}
+                {{ /nav:header }}
+            </ul>
+        </div>
+
     </div>
 </nav>

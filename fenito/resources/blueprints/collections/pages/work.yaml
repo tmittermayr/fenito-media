@@ -1,0 +1,73 @@
+title: Work
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: heading
+        field:
+          input_type: text
+          antlers: false
+          display: Heading
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: instruction
+        field:
+          antlers: false
+          display: Instruction
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: projects
+        field:
+          fields:
+            -
+              handle: project
+              field:
+                mode: default
+                create: true
+                display: Project
+                type: entries
+                icon: entries
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+          mode: table
+          reorderable: true
+          display: Projects
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
