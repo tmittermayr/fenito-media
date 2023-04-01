@@ -1,0 +1,36 @@
+title: Employees
+data:
+  employees:
+    -
+      id: lfv3383q
+      image:
+        - img/team/felix-arzt.jpg
+      name: 'Felix Arzt'
+      introduction: 'Meet Felix, a creative enthusiast who has a passion for filmmaking, video editing, and 3D animations. With a deep love for the art of storytelling, they immerse themselves in every aspect of video production to bring their ideas to life.'
+      email: felix@fenito-media.at
+      linkedin: 'https://www.linkedin.com/in/felix-arzt-03691626a/'
+      instagram: 'https://www.instagram.com/oarztla/'
+      type: new_set
+      enabled: true
+    -
+      id: lfv34xgx
+      image:
+        - img/team/nico-obermair.jpg
+      name: 'Nico Obermair'
+      introduction: 'Meet Nico, a creative individual who has a passion for filming videos, editing them, and exploring various avenues of creativity. Nico is constantly seeking ways to push the boundaries of their creativity and bring fresh perspectives to our work.'
+      email: nico@fenito-media.at
+      linkedin: 'https://www.linkedin.com/in/nico-obermair-816092266/'
+      instagram: 'https://www.instagram.com/nicooo2302/'
+      type: new_set
+      enabled: true
+    -
+      id: lfv363r7
+      image:
+        - img/team/timo-mittermayr.jpg
+      name: 'Timo Mittermayr'
+      introduction: 'Meet Timo, a creative and talented individual who has a passion for filming videos, animations, and web development. His expertise in web development also allows him to create engaging websites that showcase his abilities. Whether behind the camera or in front of the computer screen, he is always striving to push the boundaries.'
+      email: timo@fenito-media.at
+      linkedin: 'https://www.linkedin.com/in/timo-mittermayr-bb259425b/'
+      instagram: 'https://www.instagram.com/timo.mittermayr/'
+      type: new_set
+      enabled: true

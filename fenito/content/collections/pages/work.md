@@ -4,7 +4,7 @@ blueprint: work
 title: Work
 author: 1442a5e6-297c-4cb8-a98d-daaecf97181f
 updated_by: 1442a5e6-297c-4cb8-a98d-daaecf97181f
-updated_at: 1680156428
+updated_at: 1680178480
 template: work
 projects:
   -
@@ -12,4 +12,5 @@ projects:
     project:
       - 8ca7b00b-f09a-4644-8c0c-3393c73970f1
       - 35f10f42-fc27-4d42-9098-b0446acbf117
+      - cfeabcf5-4072-4082-b8d4-bd0981dbde76
 ---
