@@ -1,16 +1,16 @@
-<div class="pt-52 mb-10 flex md:flex-row flex-col items-center lg:items-start gap-10 lg:px-20 px-5 h-screen">
+<div class="pt-14 lg:pt-52 mb-10 flex md:flex-row flex-col items-center lg:items-start gap-10 lg:px-20 h-screen">
 
-    <div class="video-container lg:w-[60%] w-[90%] lg:pb-[33.75%] pb-[50.625%]">
+    <div class="video-container lg:w-[60%] w-[100%] lg:pb-[33.75%] pb-[56%]">
         {{ if video | is_embeddable }}
         <!-- Youtube and Vimeo -->
-        <iframe src="{{ video | embed_url }}" ... class="rounded-xl"></iframe>
+        <iframe src="{{ video | embed_url }}" ... class="lg:rounded-xl"></iframe>
         {{ else }}
         <!-- Other HTML5 video types -->
-        <video src="{{ video | embed_url }}" ... class="rounded-xl"></video>
+        <video src="{{ video | embed_url }}" ... class="lg:rounded-xl"></video>
         {{ /if }}
     </div>
 
-    <div class="text-lg flex flex-col gap-3">
+    <div class="text-lg flex flex-col gap-3 px-3">
         <h1 class="text-4xl font-bold">{{ title }}</h1>
         <p class="font-semibold mb-2">{{ date }}</p>
         <p>Client: {{ client }}</p>
