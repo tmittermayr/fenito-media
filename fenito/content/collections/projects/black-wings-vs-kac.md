@@ -6,7 +6,7 @@ video: 'https://youtu.be/rrMy_a-xw6w'
 client: 'Black Wings'
 location: 'Eisarena, Linz'
 updated_by: 3b1835fb-f772-46f8-877c-2057921937cd
-updated_at: 1680285064
+updated_at: 1680295042
 thumbnail:
   - thumbnail-quer-black-wings-kac.png
 ---
