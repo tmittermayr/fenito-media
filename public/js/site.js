@@ -18,8 +18,6 @@
 /******/ 	// Load entry module and return exports
 /******/ 	__webpack_modules__["./resources/js/site.js"]();
 /******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
-/******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./resources/css/tailwind.css"]();
 /******/ 	
 /******/ })()
 ;
