@@ -7,7 +7,7 @@ client: 'HTL Leonding'
 location: 'Kaufmännischer Palast, Linz'
 template: work-detail
 updated_by: 3b1835fb-f772-46f8-877c-2057921937cd
-updated_at: 1680285269
+updated_at: 1681375805
 thumbnail:
-  - maxresdefault.jpg
+  - work/htl-leonding-maturaball.jpg
 ---

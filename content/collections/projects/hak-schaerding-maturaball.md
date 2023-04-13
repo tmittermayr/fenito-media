@@ -7,7 +7,7 @@ client: 'HAK Schärding'
 location: 'Bezirkssporthalle, Schärding'
 template: work-detail
 updated_by: 3b1835fb-f772-46f8-877c-2057921937cd
-updated_at: 1680294921
+updated_at: 1681375986
 thumbnail:
-  - maxresdefault-(2).jpg
+  - work/hak-maturaball.jpg
 ---

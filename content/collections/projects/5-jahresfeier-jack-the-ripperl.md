@@ -7,7 +7,7 @@ client: 'Jack The Ripperl'
 location: 'Jack The Ripperl, Linz'
 template: work-detail
 updated_by: 3b1835fb-f772-46f8-877c-2057921937cd
-updated_at: 1680294820
+updated_at: 1681375480
 thumbnail:
-  - jtr-6.jpg
+  - work/5-jahres-feier-jtr.jpg
 ---

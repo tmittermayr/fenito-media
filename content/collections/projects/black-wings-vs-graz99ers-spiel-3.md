@@ -7,7 +7,7 @@ client: 'Black Wings'
 location: 'Eisarena, Linz'
 template: work-detail
 updated_by: 3b1835fb-f772-46f8-877c-2057921937cd
-updated_at: 1680285838
+updated_at: 1681375699
 thumbnail:
-  - maxresdefault12.jpg
+  - work/black-wings-graz-3.jpg
 ---

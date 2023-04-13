@@ -7,7 +7,7 @@ client: 'Kreuzschwestern Linz'
 location: 'Kaufmännischer Palast, Linz'
 template: work-detail
 updated_by: 3b1835fb-f772-46f8-877c-2057921937cd
-updated_at: 1680285565
+updated_at: 1681375847
 thumbnail:
-  - whatsapp-image-2023-03-31-at-19.59.10.jpeg
+  - work/ksl-maturaball.jpeg
 ---
