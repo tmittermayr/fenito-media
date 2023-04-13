@@ -14,7 +14,7 @@
         <div class="bg-[#D1EBFF] md:bg-transparent py-4 px-12 z-10" x-show="open" x-collapse>
             <ul class="flex flex-col gap-8 md:flex-row">
             {{ nav:header }}
-            <li><a href="{{ url }}"  class="text-xl hover:border-b-2 {{ if (current_url | contains('team')) && !(current_url | contains('team/')) }} hover:border-white {{ if is_current || is_parent }}text-[#2A93D5]{{ else }} md:text-white {{ endif }}{{ else }} hover:border-black {{ /if }} {{ if is_current || is_parent }}text-[#2A93D5]{{ endif }}">{{ title }}</a></li>
+            <li><a href="{{ url }}"  class="text-xl hover:border-b-2 hover:border-black {{ if is_current || is_parent }}text-[#2A93D5]{{ else }}text-black{{ endif }}">{{ title }}</a></li>
                 {{ /nav:header }}
             </ul>
         </div>
