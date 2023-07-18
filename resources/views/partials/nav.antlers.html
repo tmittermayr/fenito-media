@@ -19,7 +19,7 @@
                         </div>
                     </button>
         </div>
-        <div class="bg-[#D1EBFF] md:bg-transparent py-4 px-12 z-10" x-show="open" x-collapse>
+        <div class="bg-[#D1EBFF] md:bg-transparent py-4 px-12 z-10 " x-show="open" x-collapse>
             <ul class="flex flex-col gap-8 md:flex-row">
             {{ nav:header }}
             <li><a href="{{ url }}"  class="text-xl hover:border-b-2 hover:border-black {{ if is_current || is_parent }}text-[#2A93D5]{{ else }}text-black{{ endif }}">{{ title }}</a></li>
