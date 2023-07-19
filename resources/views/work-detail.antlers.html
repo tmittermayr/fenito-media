@@ -3,7 +3,7 @@
     <div class="video-container lg:w-[60%] w-[100%] lg:pb-[33.75%] pb-[56%]">
         {{ if video | is_embeddable }}
         <!-- Youtube and Vimeo -->
-        <iframe src="{{ video | embed_url }}" ... class="lg:rounded-xl"></iframe>
+        <iframe src="{{ video | embed_url }}" allowfullscreen="allowfullscreen" ... class="lg:rounded-xl"></iframe>
         {{ else }}
         <!-- Other HTML5 video types -->
         <video src="{{ video | embed_url }}" ... class="lg:rounded-xl"></video>
